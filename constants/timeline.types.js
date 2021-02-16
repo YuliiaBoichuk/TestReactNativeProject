@@ -1,0 +1,11 @@
+const prefix = 'timeline';
+
+export const GET_TIMELINE_REQUEST = `${prefix}/GET_TIMELINE_REQUEST`;
+export const GET_TIMELINE_SUCCESS = `${prefix}/GET_TIMELINE_SUCCESS`;
+export const GET_TIMELINE_FAILURE = `${prefix}/GET_TIMELINE_FAILURE`;
+
+export const SET_CRITERIA = `${prefix}/SET_CRITERIA`;
+
+export const UPDATE_COUNT_OF_COMMENTS_FOR_POST_AND_LAST_COMMENT = `${prefix}/UPDATE_COUNT_OF_COMMENTS_FOR_POST_AND_LAST_COMMENT`;
+
+export const GET_TIMELINE_PROMOS = `${prefix}/GET_TIMELINE_PROMOS`;
